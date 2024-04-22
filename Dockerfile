@@ -30,7 +30,7 @@ RUN echo "Building version '$ENV_BUILD_IDENTIFIER-$ENV_BUILD_VERSION' for platfo
 ######-
 # Here starts the main image
 ######-
-FROM scratch
+FROM alpine:3.19
 
 # Setup timezone
 ENV TZ=Europe/Vienna
